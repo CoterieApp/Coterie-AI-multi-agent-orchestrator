@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request private beta access
+    url: https://offlinestudio.eu/coterie
+    about: Request access on the website; an issue does not register you for the beta.
+  - name: Security concern or private support
+    url: https://github.com/CoterieApp/Coterie/blob/main/SECURITY.md
+    about: Use the private email contact. Do not post credentials or sensitive details in issues.

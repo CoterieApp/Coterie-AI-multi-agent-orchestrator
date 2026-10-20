@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible problem in the Coterie private beta.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove credentials, private code, customer data and personal paths.
+        For a potential vulnerability, follow SECURITY.md instead of opening an issue.
+  - type: input
+    id: build
+    attributes:
+      label: Coterie build
+      description: Copy the version shown by your installed build.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows and relevant official CLI versions
+      description: Include only tools involved in the problem; do not include account information.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a small, shareable example where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour and visible error
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted evidence and workarounds
+      description: Relevant screenshots or small log excerpts; say which checks could or could not run.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and removed private information from this report.
+          required: true
