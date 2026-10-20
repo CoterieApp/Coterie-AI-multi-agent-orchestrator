@@ -2,7 +2,7 @@
   <img src="assets/coterie-banner.png" alt="Coterie: a Windows workspace with a visual map of AI coding tasks" width="1200" />
 </p>
 
-# Coterie Multi-Agent-Orchestrator
+# Coterie AI Multi-Agent-Orchestrator
 
 **Plan, build and review across AI coding CLIs.**
 
