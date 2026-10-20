@@ -1,0 +1,19 @@
+# This repository is for curated public documentation and media only.
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+*.log
+*.dmp
+*.exe
+*.msi
+*.pfx
+*.pem
+*.key
+node_modules/
+target/
+dist/
+build/
+workspace.json
+*.local
