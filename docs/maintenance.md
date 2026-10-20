@@ -11,10 +11,10 @@ Never copy a private checkout or its Git history into this hub. Review the full 
 - Keep the product introduction and entry points in the root README.
 - Put public user guidance in `docs/` and update its README index.
 - Put public images in `assets/`, with descriptive file names and attribution in its README.
-- Put issue forms and community configuration in `.github/`.
+- Put issue forms and community configuration in `.github/`; its organisation and coding-guideline rules are documented in [the configuration maintenance guide](../.github/maintenance.md).
 - Keep rights, security reporting and contribution guidance at the root.
 
-New maintained directories need a README describing their purpose, organisation and maintenance rules. Avoid generic temporary or miscellaneous folders.
+New maintained directories need a README describing their purpose, organisation and maintenance rules. Exception: use `maintenance.md` inside `.github/`, because GitHub gives `.github/README.md` precedence over the root product presentation. Keep the root README as the repository landing page. Avoid generic temporary or miscellaneous folders.
 
 ## Accuracy and guidelines
 
